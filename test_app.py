@@ -4,7 +4,7 @@ from app import main, welcome_message
 class TestHelloWorld(unittest.TestCase):
 
     def test_hello_world(self):
-        self.assertEqual(main(), "Hello, DevOps!")
+        self.assertEqual(main(), "Hello, Git!")
 
     def test_return_type(self):
         self.assertIsInstance(main(), str)
